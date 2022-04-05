@@ -4727,3 +4727,18 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* scroll my-config*/
+body::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #161615;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #200808;
+	border-radius: 20px;
+	border: 3px solid #200808;
+  }
