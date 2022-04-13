@@ -2903,7 +2903,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.my-features-2 li {
-				padding: 3em 0 1em 0 ;
+				padding: 4em 0 4em 0 ;
 				background-color: transparent !important;
 				border-top: solid 2px #fff;
 				width: 100%;
