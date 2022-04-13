@@ -2903,9 +2903,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.my-features-2 li {
-				padding: 4em 0 4em 0 ;
+				padding: 3em 0 6em 0 ;
 				background-color: transparent !important;
-				border-top: solid 2px #fff;
+				/* border-top: solid 2px #fff; */
 				width: 100%;
 			}
 
@@ -4713,13 +4713,22 @@ input, select, textarea {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
+	body.is-mobile.landing #banner {
 		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
 		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
 		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
 		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
 		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	body.is-mobile.landing .wrapper.style4 {
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-crop.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-crop.jpg");
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-crop.jpg");
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-crop.jpg");
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
