@@ -4717,10 +4717,10 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #banner {
-		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
-		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
-		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
-		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance.JPG");
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance-2.jpg");
+		background-image: -webkit-linear-gradient(top, #0F0100b9, #0F0100b9), url("../../images/eda-entrance-2.jpg");
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance-2.jpg");
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/eda-entrance-2.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
