@@ -2793,6 +2793,11 @@ input, select, textarea {
 
 /* my-config my-features-2 */
 
+.txt-left {
+	text-align: start;
+	padding-bottom: 30px;
+}
+
 .my-features-2 {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -2818,6 +2823,17 @@ input, select, textarea {
 		text-align: center;
 		width: 50%;
 	}	
+
+	.my-features-2 a {
+		position: absolute;
+		bottom: 0;
+		display: flex;
+		justify-content:center;
+		justify-self: center;
+		margin: 30px 0 30px 0;
+		max-width: 86%;
+	}
+	
 
 		.my-features-2 li:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.035);
@@ -2898,6 +2914,15 @@ input, select, textarea {
 					top: 0;
 				}
 
+				.my-features-2 a {
+					max-width: 85%;
+				}
+		}
+
+		@media screen and (max-width: 980px) {
+			.my-features-2 a {
+				max-width: 82%;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2911,6 +2936,14 @@ input, select, textarea {
 
 				.my-features-2 li:first-child {
 					border-top: 0;
+				}
+
+				.my-features-2 a {
+					max-width: 100%;
+				}
+
+				.txt-left {
+					padding-bottom: 0;
 				}
 
 		}
@@ -4561,6 +4594,7 @@ input, select, textarea {
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
+			padding: 0 0.5em 0 0.5em;
 		}
 
 		#main > header p {
