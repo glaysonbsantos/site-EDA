@@ -2798,6 +2798,10 @@ input, select, textarea {
 	padding-bottom: 30px;
 }
 
+.bottom-space {
+	padding-bottom: 30px;
+}
+
 .my-features-2 {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -2942,7 +2946,7 @@ input, select, textarea {
 					max-width: 100%;
 				}
 
-				.txt-left {
+				.txt-left, .bottom-space {
 					padding-bottom: 0;
 				}
 
