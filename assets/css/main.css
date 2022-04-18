@@ -2793,9 +2793,17 @@ input, select, textarea {
 
 /* my-config my-features-2 */
 
+.min-p {
+	margin-bottom: 0;
+}
+
 .txt-left {
 	text-align: start;
 	padding-bottom: 30px;
+}
+
+.txt-left-0 {
+	text-align: start;
 }
 
 .bottom-space {
