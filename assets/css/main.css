@@ -2806,10 +2806,6 @@ input, select, textarea {
 	text-align: start;
 }
 
-.bottom-space {
-	padding-bottom: 30px;
-}
-
 .my-features-2 {
 	display: -moz-flex;
 	display: -webkit-flex;
