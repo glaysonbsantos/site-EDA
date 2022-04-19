@@ -2571,6 +2571,8 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
+
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
 			}
@@ -2835,6 +2837,9 @@ input, select, textarea {
 	.my-features-2 a {
 		position: absolute;
 		bottom: 0;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
 		display: flex;
 		justify-content:center;
 		justify-self: center;
@@ -2938,7 +2943,6 @@ input, select, textarea {
 			.my-features-2 li {
 				padding: 3em 0 6em 0 ;
 				background-color: transparent !important;
-				/* border-top: solid 2px #fff; */
 				width: 100%;
 			}
 
@@ -4817,4 +4821,15 @@ body::-webkit-scrollbar {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.btn-service {
+	color: #fff !important;
+	box-shadow: inset 0 0 0 2px rgba(211, 210, 210, 0.863) !important;
+}
+
+.btn-service:hover{
+	background-color: rgba(211, 210, 210, 0.863) !important;
+	color: #531416 !important;
+	
 }
