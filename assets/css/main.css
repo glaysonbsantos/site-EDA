@@ -4607,6 +4607,62 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#main > header.article-4-img {
+		padding: 12em 0 10em 0 ;
+		/* my-config */
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/fibromiallgia.jpg") !important;
+		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/fibromiallgia.jpg") !important;
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/fibromiallgia.jpg") !important;
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/fibromiallgia.jpg") !important;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#main > header.article-3-img {
+		padding: 12em 0 10em 0 ;
+		/* my-config */
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/burnout.jpg") !important;
+		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/burnout.jpg") !important;
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/burnout.jpg") !important;
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/burnout.jpg") !important;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#main > header.article-2-img {
+		padding: 12em 0 10em 0 ;
+		/* my-config */
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/previdencia.jpg") !important;
+		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/previdencia.jpg") !important;
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/previdencia.jpg") !important;
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/previdencia.jpg") !important;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#main > header.article-1-img {
+		padding: 12em 0 10em 0 ;
+		/* my-config */
+		background-image: -moz-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/loas.jpg") !important;
+		background-image: -webkit-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/loas.jpg") !important;
+		background-image: -ms-linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/loas.jpg") !important;
+		background-image: linear-gradient(top, rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.7)), url("../../images/loas.jpg") !important;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
