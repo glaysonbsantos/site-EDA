@@ -2834,6 +2834,11 @@ input, select, textarea {
 		width: 50%;
 	}	
 
+	.my-features-2 .li-33 {
+
+		width: 33% !important;
+	}
+
 	.my-features-2 a {
 		position: absolute;
 		bottom: 0;
@@ -3044,7 +3049,6 @@ input, select, textarea {
 				}
 
 		}
-
 
 /* Spotlight */
 
