@@ -2925,6 +2925,13 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.my-features-2 .li-33 {
+
+				width: 100%;
+				padding-bottom: 0px;
+				padding-top: 1em;
+			}
+
 				.my-features-2 li:before {
 					left: 0;
 					margin: 0 0 1em 0;
@@ -2949,12 +2956,6 @@ input, select, textarea {
 				padding: 3em 0 6em 0 ;
 				background-color: transparent !important;
 				width: 100%;
-			}
-
-			.my-features-2 .li-33 {
-
-				width: 100%;
-				padding-bottom: 0px;
 			}
 
 				.my-features-2 li:first-child {
