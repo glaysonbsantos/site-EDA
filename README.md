@@ -1,2 +1,2 @@
 # EDA-site
-Site desenvolvido para o escritório Edson Daniel Advocacia!
+Site desenvolvido para o escritório Edson Daniel Advocacia.
