@@ -135,7 +135,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
+		border-bottom: none;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2427,7 +2427,7 @@ input, select, textarea {
 		height: 3.125em;
 		letter-spacing: 0.225em;
 		line-height: 3.125em;
-		max-width: 30em;
+		/* max-width: 30em; */
 		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
@@ -4890,6 +4890,27 @@ body::-webkit-scrollbar {
     height: 100%;
 }
 
+/* spotify my-config*/
+.spotify {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.spotify::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.spotify iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .btn-service {
 	color: #fff !important;
 	box-shadow: inset 0 0 0 2px rgba(211, 210, 210, 0.863) !important;
@@ -4899,4 +4920,8 @@ body::-webkit-scrollbar {
 	background-color: rgba(211, 210, 210, 0.863) !important;
 	color: #531416 !important;
 	
+}
+
+#five {
+	padding-bottom: 0.1rem;
 }
